@@ -10,12 +10,14 @@ class LoginPage extends StatelessWidget {
         title: Text("login"),
       ),
       body: Container(
+        
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
               padding: EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: Color.fromARGB(66, 175, 216, 250),
+                color: Color.fromARGB(66, 1, 11, 19),
                 borderRadius: new BorderRadius.only(
                   topLeft: const Radius.circular(10.0),
                   topRight: const Radius.circular(10.0),
@@ -31,12 +33,16 @@ class LoginPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(18.0),
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
+                    
                     Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
+                        
                         Container(
-                          height: 50,
-                          color: Color.fromARGB(255, 255, 254, 254),
+                        
+                          color: Color.fromARGB(255, 250, 250, 250),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -78,8 +84,9 @@ class LoginPage extends StatelessWidget {
                         backgroundImage: AssetImage("assets/images/a.jpg")),
                     Text("Hira Raiz"),
                     Text("UX/UI Designer"),
-                    Row(
+                    Row(crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
+                         
                         Container(
                           padding: const EdgeInsets.all(10),
                           color: Color.fromARGB(255, 255, 254, 254),
